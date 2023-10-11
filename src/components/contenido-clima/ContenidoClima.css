@@ -1,0 +1,21 @@
+.header__title {
+    padding: 1rem;
+    background-color: #e0af0d;
+    text-align: center;
+}
+
+.header__contenido {
+    min-height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 1rem 0;
+}
+
+@media (max-width: 768px) {
+    .header__contenido {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

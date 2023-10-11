@@ -1,0 +1,33 @@
+.clima__result {
+    color: #FFFFFF;
+}
+.clima__result h2 {
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.clima__result h2 span {
+    font-weight: normal;
+}
+
+.clima__result p {
+    font-size: 24px;
+    margin-bottom: 2rem;
+}
+
+.clima__max__min {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.clima__max__min p {
+    padding: 1.5rem;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 1rem;
+}
+
+.clima__max__min p span {
+    padding-top: 1rem;
+}
